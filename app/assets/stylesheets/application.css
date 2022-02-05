@@ -112,6 +112,7 @@ header{
   flex-wrap: wrap;
   justify-content:center;
   width:920px;
+  margin-bottom:90px;
 
 }
 
@@ -119,53 +120,121 @@ header{
   background-image: url('sketch.jpg');
   height:250px;
   width:300px;
+  background-size: 100% 100%;
   margin-bottom:5px;
   margin-right:5px;
-  background-size: 100% 100%;
 }
 
 .img-2{
   background-image: url('websuku.png');
   height: 250px;
   width: 300px;
-  margin:0px 5px 5px;
   background-size: 100% 100%;
+  margin:0px 5px 5px;
 }
 
 .img-3{
   background-image: url('write.jpg');
   height:250px;
   width:300px;
+  background-size: 100% 100%;
   margin-bottom:5px;
   margin-left:5px;
-  background-size: 100% 100%;
 }
 
 .img-4{
   background-image: url('webcamp.png');
   height:250px;
   width:300px;
+  background-size: 100% 100%;
   margin-top:5px;
   margin-right:5px;
-  margin-bottom:90px;
-  background-size: 100% 100%;
 }
 
 .img-5{
   background-image: url('talk.jpg');
   height:250px;
   width:300px;
-  margin:5px 5px 90px;
-
   background-size: 100% 100%;
+  margin:5px 5px 0px;
 }
 
 .img-6{
   background-image: url('webcamp-mother.png');
   height:250px;
   width:300px;
+  background-size: 100% 100%;
   margin-top:5px;
   margin-left:5px;
+}
+
+.feature{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content:center;
+}
+
+.feature-contents{
+  width:980px;
   margin-bottom:90px;
-  background-size: 100% 100%;
+
+}
+
+#feature{
+  font-size:32px;
+  color:#000000;
+  margin-top:90px;
+  margin-bottom:8px;
+  text-align:center;
+
+}
+
+
+.feature-text{
+  font-size:16px;
+  color:#000000;
+  margin-top:30px;
+  margin-bottom:30px;
+  text-align:center;
+}
+
+.strengthes{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content:center;
+}
+
+.strength-box{
+  width: 320px;
+  height: auto;
+  text-align:center;
+
+
+}
+
+.fa-heart {
+  font-size:60px;
+}
+
+.fa-desktop {
+  font-size:60px;
+}
+
+.fa-cogs{
+  font-size:60px;
+}
+
+.strength{
+  font-size: 20px;
+  color: #000000;
+  font-weight: bold;
+  margin-top: 10px;
+  margin-bottom: 10px;
+
+}
+
+.strength-text{
+  font-size: 16px;
+  color: #000000;
+  text-align: left
 }
