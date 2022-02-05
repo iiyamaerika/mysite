@@ -286,7 +286,7 @@ header{
 .profile-text{
   font-size:16px;
   color:#000000;
-   text-align:center;
+  text-align:center;
 }
 
 .profile-name{
@@ -322,3 +322,105 @@ header{
   height: 250px;
 }
 
+#contact{
+  font-size:32px;
+  color:#000000;
+  padding-top: 90px;
+  padding-bottom: 8px;
+  text-align:center;
+  font-weight: bold;
+}
+
+.contact-text{
+  font-size:16px;
+  color:#000000;
+  text-align:center;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.contact-left{
+  width: 400px;
+  margin-bottom: 90px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content:center;
+
+}
+
+.mail{
+  font-size:20px;
+  color:#000000;
+  font-weight: bold;
+}
+
+.infomation{
+  font-size:16px;
+  color:#000000;
+  margin-top: 5px;
+  margin-bottom: 20px;
+}
+
+.tel{
+  font-size:20px;
+  color:#000000;
+  font-weight: bold;
+}
+
+.contact-right{
+  width: 400px;
+  margin-bottom: 90px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content:center;
+}
+
+.sns{
+  font-size:20px;
+  color:#000000;
+  font-weight: bold;
+}
+
+.fontawesome{
+  margin-top: 5px
+}
+
+.fa-facebook-f{
+  font-size:50px;
+  margin-right: 20px;
+}
+
+.fa-instagram{
+  font-size:50px;
+  margin-right: 20px;
+}
+
+.fa-twitter{
+  font-size:50px;
+
+}
+
+.contact{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content:center;
+}
+
+.contact-contents{
+  width:auto;
+  
+}
+
+footer{
+  height: 60px;
+  width: auto;
+  background-color: #EC715F;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.copyright{
+  font-size: 16px;
+  color: #FAFAFA;
+}
