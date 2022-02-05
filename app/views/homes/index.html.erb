@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <!-- CSSファイルの読み込み -->
+    <link rel="stylesheet" href="style.css" />
+    <title>mysite</title>
+  </head>
+
+  <body>
+    <!-- header -->
+    <header>
+      <nav>
+        <ul class="nav-list">
+          <li class="nav-list-item"><%= link_to image_tag('logo.png'), homes_index_path %></li>
+          <li class="nav-list-item"><%= link_to "Portfolio",homes_index_path(anchor: 'portfolio') %></li>
+          <li class="nav-list-item"><%= link_to "Feature",homes_index_path(anchor: 'feature') %></li>
+          <li class="nav-list-item"><%= link_to "Profile",homes_index_path(anchor: 'profile') %></li>
+          <li class="nav-list-item"><%= link_to "Contact",homes_index_path(anchor: 'contact') %></li>
+        </ul>
+      </nav>
+    </header>
+    <!-- main-visual用のdiv -->
+    <div class="main-visual">
+      <div class="main-visual-content"></div>
+    </div>
+
+    <!-- main用のdiv -->
+    <div class="main">
+      <div><p id="portfolio">Portfolio</p></div>
+      <div><p id="feature">Feature</p></div>
+      <div><p id="profile">Profile</p></div>
+      <div><p id="contact">Contact</p></div>
+    </div>
+
+    <!-- footer -->
+    <footer></footer>
+  </body>
+</html>
