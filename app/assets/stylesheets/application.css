@@ -83,7 +83,7 @@ header{
   padding:10px;
 }
 
-.portfolio{
+.backcolor{
   background-color: #ECEFF1;
 }
 
@@ -254,3 +254,71 @@ header{
   color: #000000;
   text-align: left
 }
+
+
+#profile{
+  font-size:32px;
+  color:#000000;
+  padding-top: 90px;
+  padding-bottom: 8px;
+  text-align:center;
+}
+
+.profile{
+  display: flex;
+  justify-content:center;
+  padding-bottom: 90px;
+}
+
+.profile-contents{
+  width: 1024px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content:center;
+  margin-top: 30px;
+}
+
+.profile-right{
+  width: 512px;
+  
+}
+
+.profile-text{
+  font-size:16px;
+  color:#000000;
+   text-align:center;
+}
+
+.profile-name{
+  font-size:20px;
+  color:#000000;
+  margin-bottom: 5px;
+}
+
+.profile-right-text{
+  font-size:16px;
+  color:#000000;
+}
+
+.profile-skills{
+  font-size:20px;
+  color:#000000;
+  margin-top: 20px;
+  margin-bottom: 5px;
+}
+
+
+
+.profile-icon{
+  width: 512px;
+  display: flex;
+  justify-content:center;
+  
+}
+
+.my-icon{
+  border-radius: 50%;
+  width:  250px;
+  height: 250px;
+}
+
