@@ -17,11 +17,12 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  color: #FAFAFA;
+
 }
 
 a {
   text-decoration: none;
+  color: #FAFAFA;
 }
 
 header{
@@ -30,6 +31,7 @@ header{
   background-color: #EC715F;
   display: flex;
   justify-content: center;
+
 }
 
 
@@ -40,6 +42,7 @@ header{
   display: flex;
   justify-content: flex-end;
   align-items:center;
+
 }
 
 .nav-list>:first-child {
@@ -52,8 +55,30 @@ header{
   display: inline-block;
   list-style:none;
   text-align: center;
+
 }
 
 .nav-list-item img{
   height:70px;
+}
+
+.main-visual-content{
+  height:650px;
+  background-image: url('mv.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.main-text{
+  font-size: 64px;
+  color: #FAFAFA;
+  text-align: center;
+  padding-top: 200px;
+}
+
+.sub-text{
+  font-size: 20px;
+  color: #FAFAFA;
+  text-align: center;
+  padding:10px;
 }
