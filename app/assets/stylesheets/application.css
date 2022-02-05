@@ -204,7 +204,23 @@ header{
   justify-content:center;
 }
 
-.strength-box{
+.strength-box1{
+  width: 320px;
+  height: auto;
+  text-align:center;
+  margin-right: 10px;
+
+}
+
+.strength-box2{
+  width: 320px;
+  height: auto;
+  text-align:center;
+  margin-right: 10px;
+
+}
+
+.strength-box3{
   width: 320px;
   height: auto;
   text-align:center;
